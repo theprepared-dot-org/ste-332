@@ -1,4 +1,4 @@
-# baseURL = "http://ste332.theprepared.org"
+baseURL = "http://ste332.theprepared.org"
 languageCode = "en-us"
 title = "STE 332 Wiki"
 theme = "hermit"
