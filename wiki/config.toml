@@ -1,0 +1,24 @@
+# baseURL = "http://ste332.theprepared.org"
+languageCode = "en-us"
+title = "STE 332 Wiki"
+theme = "hermit"
+
+[author]
+  name = "the prepared dot org"
+
+[[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/the_prepared"
+
+# Uncomment when we wants multiple pages
+
+# [menu]
+#   [[menu.main]]
+#     name = "Posts"
+#     url = "trash/"
+#     weight = 10
+
+#   [[menu.main]]
+#     name = "About"
+#     url = "about/"
+#     weight = 20
