@@ -9,8 +9,8 @@ then
 fi
 
 echo "Deleting old publication"
-rm -rf public
-mkdir public
+rm -rf wiki/public
+mkdir wiki/public
 git worktree prune
 rm -rf ./.git/worktrees/wiki/public/
 
@@ -21,7 +21,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo
+cd wiki && hugo
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && git push origin gh-pages && git checkout master
