@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on STE 332 Wiki</title>
-    <link>http://ste332.theprepared.org/categories/</link>
+    <link>https://theprepared-dot-org.github.io/ste-332/categories/</link>
     <description>Recent content in Categories on STE 332 Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://ste332.theprepared.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://theprepared-dot-org.github.io/ste-332/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
