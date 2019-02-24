@@ -1,0 +1,19 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: build wiki
+    image: golang:1.11
+    environment:
+      GO111MODULE: on
+    commands:
+      - make wiki
+
+  - name: publish wiki
+    image: plugins/gh-pages
+    settings:
+      username:
+        from_secret: github_username
+      password:
+        from_secret: github_password
+      pages_directory: wiki/public/
