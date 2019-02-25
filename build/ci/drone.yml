@@ -2,6 +2,18 @@ kind: pipeline
 name: default
 
 steps:
+  - name: run tests
+    image: golang:1.11
+    environment:
+      GO111MODULE: on
+    commands:
+      - make test-full
+
+---
+kind: pipeline
+name: wiki
+
+steps:
   - name: build wiki
     image: golang:1.11
     environment:
@@ -17,3 +29,19 @@ steps:
       password:
         from_secret: github_password
       pages_directory: wiki/public/
+    when:
+      branch:
+        include:
+          - master
+
+---
+kind: pipeline
+name: shop manager
+
+steps:
+  - name: build shop manager
+    image: golang:1.11
+    environment:
+      GO111MODULE: on
+    commands:
+      - make build
