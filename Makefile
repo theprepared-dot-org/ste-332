@@ -4,6 +4,9 @@ wiki: tools
 	git submodule update --init --recursive
 	hugo -s wiki
 
+serve-wiki:
+	hugo -s wiki server
+
 tools: $GOPATH/bin/hugo $GOPATH/bin/protoc-gen-go
 
 $GOPATH/bin/hugo:
@@ -28,3 +31,6 @@ test:
 
 test-full:
 	go test -v -cover ./...
+
+run:
+	go run cmd/shopmanager/main.go
