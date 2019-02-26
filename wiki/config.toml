@@ -1,6 +1,6 @@
-baseURL = "https://theprepared-dot-org.github.io/ste332/"
+baseURL = "https://wiki.ste332.com"
 languageCode = "en-us"
-title = "STE 332 Wiki"
+title = "Ste332 Wiki"
 theme = "hermit"
 
 [author]
