@@ -10,8 +10,6 @@ theme = "hermit"
     name = "twitter"
     url = "https://twitter.com/the_prepared"
 
-# Uncomment when we wants multiple pages
-
 [menu]
   [[menu.main]]
     name = "About"
