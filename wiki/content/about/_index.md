@@ -1,7 +1,6 @@
 ---
 title: "Wiki"
 date: 2019-01-21T11:47:37-05:00
-draft: true
 ---
 
 # STE 332
