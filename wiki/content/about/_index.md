@@ -29,3 +29,16 @@ Some tools are shared. If you don't know how to use one of the shared tools just
 * List
 * Of
 * Tools
+
+## Shipping and Receiving
+
+Packages should be shipped to:
+
+```
+the prepared.org
+c/o <your_name>
+544 Park Ave, Suite 332, 
+Brooklyn, NY 11205
+```
+
+There are shipping materials against the back side of the podcast studio. Ask before using boxes, lots of tape, etc.
